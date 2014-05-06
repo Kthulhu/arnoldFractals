@@ -1,6 +1,6 @@
 Arnold Fractal Experiments
 ===================
-A few of experiments with fractals just for fun (Work In Progress)
+A few of experiments with 3D fractals just for fun (Work In Progress)
 Images are generated with Arnold
 I also used Arnold procedurals to generate the particles
 
