@@ -1,7 +1,9 @@
 Arnold Fractal Experiments
 ===================
 A few of experiments with 3D fractals just for fun (Work In Progress)
+
 Images are generated with Arnold
+
 I also used Arnold procedurals to generate the particles
 
 The code is based on the Arnold procedural Mandelbulb code found here:
