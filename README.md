@@ -13,4 +13,4 @@ http://blog.hvidtfeldts.net/index.php/2011/09/distance-estimated-3d-fractals-v-t
 I also removed the orbitthreshoold parameter and exposed the "limit" parameter to be able to experiment with different values
 
 Some early tests:
-![alt tag](testFractal1.jpg)
+![alt tag](fractalTest1.jpg)
