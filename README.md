@@ -12,5 +12,5 @@ based on the Mandelbox found here:
 http://blog.hvidtfeldts.net/index.php/2011/09/distance-estimated-3d-fractals-v-the-mandelbulb-different-de-approximations/
 I also removed the orbitthreshoold parameter and exposed the "limit" parameter to be able to experiment with different values
 
-Some early tests:
+Early test sample:
 ![alt tag](fractalTest1.jpg)
