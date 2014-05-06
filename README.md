@@ -1,4 +1,4 @@
-Fractal Experiments
+Arnold Fractal Experiments
 ===================
 A few of experiments with fractals just for fun (Work In Progress)
 Images are generated with Arnold
