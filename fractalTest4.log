@@ -1,0 +1,566 @@
+00:00:00     4MB         | log started Tue May  6 20:14:49 2014
+00:00:00     4MB         | Arnold 4.1.3.5 darwin clang420 oiio10202 rlm1012 2014/04/09 09:57:58
+00:00:00     5MB         | running on Pilars-MacBook-Pro.local
+00:00:00     5MB         |  1 x Intel(R) Core(TM) i7-3720QM CPU @ 2.60GHz (4 cores, 8 logical) with 8192MB
+00:00:00     5MB         |  OS X 10.9.2 "Mavericks", Darwin kernel 13.1.0
+00:00:00     5MB         |  
+00:00:00     5MB         | [kick] command: /Users/pilar/Documents/Code/Arnold/Arnold-4.1.3.5-darwin/bin/kick -logfile fractalTest4.log fractalTest4.ass -v 6
+00:00:00     5MB         | loading plugins from . ...
+00:00:00     5MB         | no plugins loaded
+00:00:00     5MB         | [ass] loading fractalTest4.ass ...
+00:00:00     5MB         | [ass] read 2263 bytes, 10 nodes in 0:00.03
+00:00:00     5MB         |  
+00:00:00     5MB         | [rlm] checking connection to license server on 5053@localhost ...
+00:00:00     5MB WARNING | [rlm] could not connect to license server on 5053@localhost
+00:00:00     6MB         |  
+00:00:00     6MB         | there are 1 light and 2 objects:
+00:00:00     6MB         |  1 procedural
+00:00:00     6MB         |  1 plane
+00:00:00     6MB         |  
+00:00:00     6MB         | rendering image at 960 x 540, -3 AA samples, 3 GI samples, 1 GI bounces
+00:00:00     6MB         |  initializing 15 nodes ...
+00:00:00     6MB         |  node initialization done in 0:00.00
+00:00:00     7MB         |  creating root object list ...
+00:00:00     7MB         |   scene bounds: (-1.00000002e+30 -1.00000002e+30 -1.00000002e+30) -> (1.00000002e+30 1.00000002e+30 1.00000002e+30)
+00:00:00     7MB         |  updating 16 nodes ...
+00:00:00     7MB         |   /obj/arnold_light2: point_light using 2 samples
+00:00:00     7MB         |  node update done in 0:00.00
+00:00:00     7MB         |  [aov] parsing output statement: "RGBA RGBA kick_display_filter kick_display"
+00:00:00     7MB         |  [aov] registered driver: "kick_display" (driver_x11)
+00:00:00     7MB         |  [aov]  * "RGBA" of type RGBA filtered by "kick_display_filter" (gaussian_filter)
+00:00:00    16MB         |  [aov] done preparing 1 AOV for 1 output to 1 driver (0 deep AOVs)
+00:00:00    16MB         |  starting 8 bucket workers of size 64x64 ...
+00:00:00    16MB         |   [accel] bvh4 done - 0:00.00 - 2 prims, 1 key
+00:00:00    16MB         |   [proc] /obj/Fractal_Procedural1: loading fractal.so
+00:04:25  2984MB         |   [proc] /obj/Fractal_Procedural1: loaded 30 nodes (30 objects)
+00:04:25  2984MB WARNING |   [proc] /obj/Fractal_Procedural1: user bounds could be infx more efficient. given: (-1.00000002e+30, -1.00000002e+30, -1.00000002e+30) to (1.00000002e+30, 1.00000002e+30, 1.00000002e+30), should be: (-1.25166667, -1.25166667, -1.25166667) to (1.24958336, 1.24958336, 1.24958336)
+00:04:25  2983MB         |   [accel] bvh4 done - 0:00.00 - 30 prims, 1 key
+00:04:39  3570MB         |   [accel] bvh4 done - 0:13.10 - 7606061 prims, 1 key
+00:04:41  3349MB         |   [accel] bvh4 done - 0:15.13 - 9602488 prims, 1 key
+00:04:43  3461MB         |   [accel] bvh4 done - 0:17.18 - 9818868 prims, 1 key
+00:04:44  3710MB         |   [accel] bvh4 done - 0:18.13 - 10256472 prims, 1 key
+00:04:44  3999MB         |   [accel] bvh4 done - 0:18.41 - 10330224 prims, 1 key
+00:04:44  4122MB         |   [accel] bvh4 done - 0:18.53 - 10406939 prims, 1 key
+00:04:47  3910MB         |   [accel] bvh4 done - 0:21.62 - 11836223 prims, 1 key
+00:04:47  4177MB         |   [accel] bvh4 done - 0:21.97 - 11813933 prims, 1 key
+00:04:49  4225MB         |   [accel] bvh4 done - 0:08.83 - 9372618 prims, 1 key
+00:04:52  4251MB         |   [accel] bvh4 done - 0:08.93 - 10412120 prims, 1 key
+00:04:54  3905MB         |   [accel] bvh4 done - 0:10.33 - 11787225 prims, 1 key
+00:04:56  3735MB         |   [accel] bvh4 done - 0:11.75 - 10378591 prims, 1 key
+00:04:56  3502MB         |   [accel] bvh4 done - 0:12.85 - 10374984 prims, 1 key
+00:04:57  3324MB         |   [accel] bvh4 done - 0:10.21 - 10311702 prims, 1 key
+00:05:00  3772MB         |   [accel] bvh4 done - 0:02.24 - 10505785 prims, 1 key
+00:05:02  4065MB         |   [accel] bvh4 done - 0:02.07 - 9750173 prims, 1 key
+00:05:05  4396MB         |   [accel] bvh4 done - 0:03.28 - 11858486 prims, 1 key
+00:05:07  4274MB         |   [accel] bvh4 done - 0:02.57 - 9409456 prims, 1 key
+00:05:10  4256MB         |   [accel] bvh4 done - 0:08.02 - 5538337 prims, 1 key
+00:05:11  3902MB         |   [accel] bvh4 done - 0:03.65 - 9486576 prims, 1 key
+00:05:13  4121MB         |   [accel] bvh4 done - 0:03.25 - 2949290 prims, 1 key
+00:05:16  3697MB         |   [accel] bvh4 done - 0:04.63 - 7685167 prims, 1 key
+00:05:17  3830MB         |   [accel] bvh4 done - 0:05.45 - 5120953 prims, 1 key
+00:05:19  3538MB         |   [accel] bvh4 done - 0:02.86 - 5690526 prims, 1 key
+00:05:20  3625MB         |   [accel] bvh4 done - 0:03.09 - 2616816 prims, 1 key
+00:05:20  3628MB         |   [accel] bvh4 done - 0:01.36 - 2981666 prims, 1 key
+00:05:21  3515MB         |   [accel] bvh4 done - 0:01.22 - 2595224 prims, 1 key
+00:05:22  3410MB         |   [accel] bvh4 done - 0:01.30 - 2686999 prims, 1 key
+00:05:23  3385MB         |   [accel] bvh4 done - 0:03.13 - 2675031 prims, 1 key
+00:05:25  3144MB         |   [accel] bvh4 done - 0:02.80 - 5055602 prims, 1 key
+00:05:25  3113MB         |     0% done - 30 rays/pixel
+00:05:25  3085MB         |     5% done - 29 rays/pixel
+00:05:25  3079MB         |    10% done - 23 rays/pixel
+00:05:26  3051MB         |    15% done - 29 rays/pixel
+00:05:26  3051MB         |    20% done - 29 rays/pixel
+00:05:26  3040MB         |    25% done - 29 rays/pixel
+00:05:26  3032MB         |    30% done - 26 rays/pixel
+00:05:26  2949MB         |    35% done - 29 rays/pixel
+00:05:26  2862MB         |    40% done - 27 rays/pixel
+00:05:26  2886MB         |    45% done - 25 rays/pixel
+00:05:26  2910MB         |    50% done - 25 rays/pixel
+00:05:26  2918MB         |    55% done - 27 rays/pixel
+00:05:26  2932MB         |    60% done - 29 rays/pixel
+00:05:26  2956MB         |    65% done - 28 rays/pixel
+00:05:26  2975MB         |    70% done - 28 rays/pixel
+00:05:26  2995MB         |    75% done - 27 rays/pixel
+00:05:26  3008MB         |    80% done - 28 rays/pixel
+00:05:26  3022MB         |    85% done - 27 rays/pixel
+00:05:26  3050MB         |    90% done - 28 rays/pixel
+00:05:26  3063MB         |    95% done - 28 rays/pixel
+00:05:26  3079MB         |   100% done - 29 rays/pixel
+00:05:26  3079MB         |  bucket workers done in 5:26.35
+00:05:26  3079MB         | render done
+00:05:26  3080MB         |  
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | scene creation time:
+00:05:26  3080MB         |  plugin loading               0:00.00
+00:05:26  3080MB         |  .ass parsing                 0:00.03
+00:05:26  3080MB         |  system/unaccounted           0:00.04
+00:05:26  3080MB         |  total                        0:00.04  ( 0.47% machine utilization)
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | render time:
+00:05:26  3080MB         |  node init                    0:00.00
+00:05:26  3080MB         |  bucket rendering             5:26.35
+00:05:26  3080MB         |   accel. building             4:18.04
+00:05:26  3080MB         |   procedural expansion        4:25.84
+00:05:26  3080MB         |   pixel rendering             0:00.00  (multi-threaded render, this value may not be reliable)
+00:05:26  3080MB         |  system/unaccounted           2:38.91
+00:05:26  3080MB         |  total                        5:26.35  (51.31% machine utilization)
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | memory consumed in MB:
+00:05:26  3080MB         |  at startup                      3.49
+00:05:26  3080MB         |  plugins                         0.06
+00:05:26  3080MB         |  AOV samples                     0.03
+00:05:26  3080MB         |  output buffers                  0.50
+00:05:26  3080MB         |  node overhead                   0.01
+00:05:26  3080MB         |  message passing                 0.02
+00:05:26  3080MB         |  memory pools                    7.77
+00:05:26  3080MB         |  geometry                     2919.64
+00:05:26  3080MB         |    points                     2919.64
+00:05:26  3080MB         |  accel. structs               7275.99
+00:05:26  3080MB         |  string pool                     0.13 (588 unique strings, overhead 0.11 MB)
+00:05:26  3080MB         |  texture cache                   0.00
+00:05:26  3080MB         |  unaccounted                 -5550.25
+00:05:26  3080MB         |  total peak                   5020.56
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | ray counts:                           (/pixel , /sample) (% total) (avg. hits) (max hits)
+00:05:26  3080MB         |  camera                         12665 (   1.00,    1.00) (  3.57%) (     1.00) (       1)
+00:05:26  3080MB         |  shadow                        149588 (  11.81,   11.81) ( 42.15%) (     0.65) (       1)
+00:05:26  3080MB         |  diffuse                       148946 (  11.76,   11.76) ( 41.97%) (     0.64) (       1)
+00:05:26  3080MB         |  glossy                         43682 (   3.45,    3.45) ( 12.31%) (     0.80) (       1)
+00:05:26  3080MB         |  total                         354881 (  28.02,   28.02) (100.00%) (     0.68) (       1)
+00:05:26  3080MB         |  max depth                          2
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | shader calls:                         (/pixel , /sample) (% total)
+00:05:26  3080MB         |  primary                       143088 (  11.30,   11.30) ( 69.70%)
+00:05:26  3080MB         |  background                     62205 (   4.91,    4.91) ( 30.30%)
+00:05:26  3080MB         |  total                         205293 (  16.21,   16.21) (100.00%)
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | geometry:                             (% hit ) (instances) (  init mem,  final mem)
+00:05:26  3080MB         |  lists                              1 (100.0%) (        0) (      0.00,       0.00)
+00:05:26  3080MB         |  procs                              1 (100.0%) (        0) (      0.00,       0.00)
+00:05:26  3080MB         |  points                            30 (100.0%) (        0) (   2757.05,    2919.64)
+00:05:26  3080MB         |  simple                             1 (100.0%) (        0) (      0.00,       0.00)
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | geometric elements:                   (      min) (       avg.) (      max)
+00:05:26  3080MB         |  objects (top level)                2 (        2) (        2.0) (        2)
+00:05:26  3080MB         |  objects (procs)                   30 (       30) (       30.0) (       30)
+00:05:26  3080MB         |  points                     240914535 (  2595224) (  8030484.5) ( 11858486)
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | acceleration structures:              (% total)
+00:05:26  3080MB         |  bvh                               32 (100.00%)
+00:05:26  3080MB         |  total                             32 (100.00%)
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | number of warnings, warning type:
+00:05:26  3080MB         |     1:  [proc] %s: user bounds could be %.3gx more efficient. given: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g), should be: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g)
+00:05:26  3080MB         |     1:  [rlm] could not connect to license server on %d@%s
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         | performance warnings:
+00:05:26  3080MB WARNING |  1 on-demand procedural has very poor bounds. This can severely affect ray tracing performance. You should check the bounds being passed from the host application.
+00:05:26  3080MB         | -----------------------------------------------------------------------------------------
+00:05:26  3080MB         |  
+00:05:26  3080MB         | rendering image at 960 x 540, -2 AA samples, 3 GI samples, 1 GI bounces
+00:05:26  3080MB         |  updating 46 nodes ...
+00:05:26  3080MB         |  node update done in 0:00.00
+00:05:26  3080MB         |  [aov] parsing output statement: "RGBA RGBA kick_display_filter kick_display"
+00:05:26  3080MB         |  [aov] registered driver: "kick_display" (driver_x11)
+00:05:26  3080MB         |  [aov]  * "RGBA" of type RGBA filtered by "kick_display_filter" (gaussian_filter)
+00:05:26  3080MB         |  [aov] done preparing 1 AOV for 1 output to 1 driver (0 deep AOVs)
+00:05:26  3080MB         |  starting 8 bucket workers of size 64x64 ...
+00:05:26  3137MB         |     0% done - 22 rays/pixel
+00:05:26  3150MB         |     5% done - 30 rays/pixel
+00:05:26  3155MB         |    10% done - 26 rays/pixel
+00:05:26  3164MB         |    15% done - 27 rays/pixel
+00:05:26  3172MB         |    20% done - 28 rays/pixel
+00:05:26  3181MB         |    25% done - 29 rays/pixel
+00:05:26  3184MB         |    30% done - 26 rays/pixel
+00:05:26  3192MB         |    35% done - 28 rays/pixel
+00:05:26  3213MB         |    40% done - 28 rays/pixel
+00:05:26  3227MB         |    45% done - 28 rays/pixel
+00:05:26  3243MB         |    50% done - 28 rays/pixel
+00:05:26  3254MB         |    55% done - 28 rays/pixel
+00:05:26  3271MB         |    60% done - 30 rays/pixel
+00:05:26  3290MB         |    65% done - 28 rays/pixel
+00:05:26  3309MB         |    70% done - 27 rays/pixel
+00:05:26  3326MB         |    75% done - 29 rays/pixel
+00:05:26  3340MB         |    80% done - 28 rays/pixel
+00:05:26  3357MB         |    85% done - 27 rays/pixel
+00:05:27  3379MB         |    90% done - 29 rays/pixel
+00:05:27  3403MB         |    95% done - 26 rays/pixel
+00:05:27  3416MB         |   100% done - 28 rays/pixel
+00:05:27  3416MB         |  bucket workers done in 0:00.70
+00:05:27  3416MB         | render done
+00:05:27  3416MB         |  
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | scene creation time:
+00:05:27  3416MB         |  plugin loading               0:00.00
+00:05:27  3416MB         |  .ass parsing                 0:00.03
+00:05:27  3416MB         |  system/unaccounted           0:00.04
+00:05:27  3416MB         |  total                        0:00.04  ( 0.80% machine utilization)
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | render time:
+00:05:27  3416MB         |  node init                    0:00.00
+00:05:27  3416MB         |  bucket rendering             0:00.70
+00:05:27  3416MB         |   accel. building             0:00.00
+00:05:27  3416MB         |   pixel rendering             0:00.70  (multi-threaded render, this value may not be reliable)
+00:05:27  3416MB         |  system/unaccounted           0:00.22
+00:05:27  3416MB         |  total                        0:00.70  (68.36% machine utilization)
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | memory consumed in MB:
+00:05:27  3416MB         |  at startup                      3.49
+00:05:27  3416MB         |  plugins                         0.06
+00:05:27  3416MB         |  AOV samples                     0.11
+00:05:27  3416MB         |  output buffers                  0.50
+00:05:27  3416MB         |  node overhead                   0.01
+00:05:27  3416MB         |  message passing                 0.02
+00:05:27  3416MB         |  memory pools                    7.77
+00:05:27  3416MB         |  geometry                     2919.64
+00:05:27  3416MB         |    points                     2919.64
+00:05:27  3416MB         |  accel. structs               7275.99
+00:05:27  3416MB         |  string pool                     0.13 (588 unique strings, overhead 0.11 MB)
+00:05:27  3416MB         |  texture cache                   0.00
+00:05:27  3416MB         |  unaccounted                 -5550.33
+00:05:27  3416MB         |  total peak                   5020.56
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | ray counts:                           (/pixel , /sample) (% total) (avg. hits) (max hits)
+00:05:27  3416MB         |  camera                         40888 (   1.00,    1.00) (  3.58%) (     1.00) (       1)
+00:05:27  3416MB         |  shadow                        479740 (  11.73,   11.73) ( 42.02%) (     0.64) (       1)
+00:05:27  3416MB         |  diffuse                       480520 (  11.75,   11.75) ( 42.09%) (     0.64) (       1)
+00:05:27  3416MB         |  glossy                        140425 (   3.43,    3.43) ( 12.30%) (     0.80) (       1)
+00:05:27  3416MB         |  total                        1141573 (  27.92,   27.92) (100.00%) (     0.67) (       1)
+00:05:27  3416MB         |  max depth                          2
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | shader calls:                         (/pixel , /sample) (% total)
+00:05:27  3416MB         |  primary                       459696 (  11.24,   11.24) ( 69.46%)
+00:05:27  3416MB         |  background                    202137 (   4.94,    4.94) ( 30.54%)
+00:05:27  3416MB         |  total                         661833 (  16.19,   16.19) (100.00%)
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | geometry:                             (% hit ) (instances) (  init mem,  final mem)
+00:05:27  3416MB         |  lists                              1 (100.0%) (        0) (      0.00,       0.00)
+00:05:27  3416MB         |  procs                              1 (100.0%) (        0) (      0.00,       0.00)
+00:05:27  3416MB         |  points                            30 (100.0%) (        0) (   2757.05,    2919.64)
+00:05:27  3416MB         |  simple                             1 (100.0%) (        0) (      0.00,       0.00)
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | geometric elements:                   (      min) (       avg.) (      max)
+00:05:27  3416MB         |  objects (top level)                2 (        2) (        2.0) (        2)
+00:05:27  3416MB         |  objects (procs)                   30 (       30) (       30.0) (       30)
+00:05:27  3416MB         |  points                     240914535 (  2595224) (  8030484.5) ( 11858486)
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | acceleration structures:              (% total)
+00:05:27  3416MB         |  bvh                               32 (100.00%)
+00:05:27  3416MB         |  total                             32 (100.00%)
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | number of warnings, warning type:
+00:05:27  3416MB         |     1:  %d on-demand procedural%s very poor bounds. This can severely affect ray tracing performance. You should check the bounds being passed from the host application.
+00:05:27  3416MB         |     1:  [proc] %s: user bounds could be %.3gx more efficient. given: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g), should be: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g)
+00:05:27  3416MB         |     1:  [rlm] could not connect to license server on %d@%s
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         | performance warnings:
+00:05:27  3416MB WARNING |  1 on-demand procedural has very poor bounds. This can severely affect ray tracing performance. You should check the bounds being passed from the host application.
+00:05:27  3416MB         | -----------------------------------------------------------------------------------------
+00:05:27  3416MB         |  
+00:05:27  3416MB         | rendering image at 960 x 540, -1 AA samples, 3 GI samples, 1 GI bounces
+00:05:27  3416MB         |  updating 46 nodes ...
+00:05:27  3416MB         |  node update done in 0:00.00
+00:05:27  3416MB         |  [aov] parsing output statement: "RGBA RGBA kick_display_filter kick_display"
+00:05:27  3416MB         |  [aov] registered driver: "kick_display" (driver_x11)
+00:05:27  3416MB         |  [aov]  * "RGBA" of type RGBA filtered by "kick_display_filter" (gaussian_filter)
+00:05:27  3416MB         |  [aov] done preparing 1 AOV for 1 output to 1 driver (0 deep AOVs)
+00:05:27  3416MB         |  starting 8 bucket workers of size 64x64 ...
+00:05:27  3436MB         |     0% done - 29 rays/pixel
+00:05:27  3421MB         |     5% done - 29 rays/pixel
+00:05:27  3414MB         |    10% done - 28 rays/pixel
+00:05:27  3422MB         |    15% done - 27 rays/pixel
+00:05:27  3431MB         |    20% done - 28 rays/pixel
+00:05:27  3437MB         |    25% done - 27 rays/pixel
+00:05:27  3438MB         |    30% done - 26 rays/pixel
+00:05:27  3443MB         |    35% done - 27 rays/pixel
+00:05:27  3438MB         |    40% done - 28 rays/pixel
+00:05:28  3442MB         |    45% done - 29 rays/pixel
+00:05:28  3433MB         |    50% done - 30 rays/pixel
+00:05:28  3407MB         |    55% done - 29 rays/pixel
+00:05:28  3417MB         |    60% done - 29 rays/pixel
+00:05:28  3387MB         |    65% done - 28 rays/pixel
+00:05:28  3374MB         |    70% done - 26 rays/pixel
+00:05:28  3384MB         |    75% done - 28 rays/pixel
+00:05:28  3409MB         |    80% done - 28 rays/pixel
+00:05:29  3435MB         |    85% done - 27 rays/pixel
+00:05:29  3451MB         |    90% done - 28 rays/pixel
+00:05:29  3462MB         |    95% done - 29 rays/pixel
+00:05:29  3480MB         |   100% done - 29 rays/pixel
+00:05:29  3480MB         |  bucket workers done in 0:02.15
+00:05:29  3480MB         | render done
+00:05:29  3480MB         |  
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | scene creation time:
+00:05:29  3480MB         |  plugin loading               0:00.00
+00:05:29  3480MB         |  .ass parsing                 0:00.03
+00:05:29  3480MB         |  system/unaccounted           0:00.04
+00:05:29  3480MB         |  total                        0:00.04  ( 0.94% machine utilization)
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | render time:
+00:05:29  3480MB         |  node init                    0:00.00
+00:05:29  3480MB         |  bucket rendering             0:02.15
+00:05:29  3480MB         |   accel. building             0:00.00
+00:05:29  3480MB         |   pixel rendering             0:02.15  (multi-threaded render, this value may not be reliable)
+00:05:29  3480MB         |  system/unaccounted           0:00.56
+00:05:29  3480MB         |  total                        0:02.16  (73.96% machine utilization)
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | memory consumed in MB:
+00:05:29  3480MB         |  at startup                      3.49
+00:05:29  3480MB         |  plugins                         0.06
+00:05:29  3480MB         |  AOV samples                     0.41
+00:05:29  3480MB         |  output buffers                  0.50
+00:05:29  3480MB         |  node overhead                   0.01
+00:05:29  3480MB         |  message passing                 0.02
+00:05:29  3480MB         |  memory pools                    7.77
+00:05:29  3480MB         |  geometry                     2919.64
+00:05:29  3480MB         |    points                     2919.64
+00:05:29  3480MB         |  accel. structs               7275.99
+00:05:29  3480MB         |  string pool                     0.13 (588 unique strings, overhead 0.11 MB)
+00:05:29  3480MB         |  texture cache                   0.00
+00:05:29  3480MB         |  unaccounted                 -5550.62
+00:05:29  3480MB         |  total peak                   5020.56
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | ray counts:                           (/pixel , /sample) (% total) (avg. hits) (max hits)
+00:05:29  3480MB         |  camera                        146083 (   1.00,    1.00) (  3.58%) (     1.00) (       1)
+00:05:29  3480MB         |  shadow                       1713885 (  11.73,   11.73) ( 42.03%) (     0.64) (       1)
+00:05:29  3480MB         |  diffuse                      1716458 (  11.75,   11.75) ( 42.09%) (     0.64) (       1)
+00:05:29  3480MB         |  glossy                        501315 (   3.43,    3.43) ( 12.29%) (     0.80) (       1)
+00:05:29  3480MB         |  total                        4077741 (  27.91,   27.91) (100.00%) (     0.67) (       1)
+00:05:29  3480MB         |  max depth                          2
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | shader calls:                         (/pixel , /sample) (% total)
+00:05:29  3480MB         |  primary                      1641136 (  11.23,   11.23) ( 69.43%)
+00:05:29  3480MB         |  background                    722720 (   4.95,    4.95) ( 30.57%)
+00:05:29  3480MB         |  total                        2363856 (  16.18,   16.18) (100.00%)
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | geometry:                             (% hit ) (instances) (  init mem,  final mem)
+00:05:29  3480MB         |  lists                              1 (100.0%) (        0) (      0.00,       0.00)
+00:05:29  3480MB         |  procs                              1 (100.0%) (        0) (      0.00,       0.00)
+00:05:29  3480MB         |  points                            30 (100.0%) (        0) (   2757.05,    2919.64)
+00:05:29  3480MB         |  simple                             1 (100.0%) (        0) (      0.00,       0.00)
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | geometric elements:                   (      min) (       avg.) (      max)
+00:05:29  3480MB         |  objects (top level)                2 (        2) (        2.0) (        2)
+00:05:29  3480MB         |  objects (procs)                   30 (       30) (       30.0) (       30)
+00:05:29  3480MB         |  points                     240914535 (  2595224) (  8030484.5) ( 11858486)
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | acceleration structures:              (% total)
+00:05:29  3480MB         |  bvh                               32 (100.00%)
+00:05:29  3480MB         |  total                             32 (100.00%)
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | number of warnings, warning type:
+00:05:29  3480MB         |     2:  %d on-demand procedural%s very poor bounds. This can severely affect ray tracing performance. You should check the bounds being passed from the host application.
+00:05:29  3480MB         |     1:  [proc] %s: user bounds could be %.3gx more efficient. given: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g), should be: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g)
+00:05:29  3480MB         |     1:  [rlm] could not connect to license server on %d@%s
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         | performance warnings:
+00:05:29  3480MB WARNING |  1 on-demand procedural has very poor bounds. This can severely affect ray tracing performance. You should check the bounds being passed from the host application.
+00:05:29  3480MB         | -----------------------------------------------------------------------------------------
+00:05:29  3480MB         |  
+00:05:29  3480MB         | rendering image at 960 x 540, 1 AA samples, 3 GI samples, 1 GI bounces
+00:05:29  3480MB         |  updating 46 nodes ...
+00:05:29  3480MB         |  node update done in 0:00.00
+00:05:29  3480MB         |  [aov] parsing output statement: "RGBA RGBA kick_display_filter kick_display"
+00:05:29  3480MB         |  [aov] registered driver: "kick_display" (driver_x11)
+00:05:29  3480MB         |  [aov]  * "RGBA" of type RGBA filtered by "kick_display_filter" (gaussian_filter)
+00:05:29  3480MB         |  [aov] done preparing 1 AOV for 1 output to 1 driver (0 deep AOVs)
+00:05:29  3480MB         |  starting 8 bucket workers of size 64x64 ...
+00:05:29  3489MB         |     0% done - 22 rays/pixel
+00:05:29  3503MB         |     5% done - 29 rays/pixel
+00:05:30  3510MB         |    10% done - 27 rays/pixel
+00:05:30  3519MB         |    15% done - 29 rays/pixel
+00:05:30  3524MB         |    20% done - 26 rays/pixel
+00:05:31  3532MB         |    25% done - 29 rays/pixel
+00:05:31  3535MB         |    30% done - 25 rays/pixel
+00:05:31  3552MB         |    35% done - 27 rays/pixel
+00:05:31  3572MB         |    40% done - 30 rays/pixel
+00:05:32  3588MB         |    45% done - 25 rays/pixel
+00:05:32  3601MB         |    50% done - 29 rays/pixel
+00:05:32  3588MB         |    55% done - 27 rays/pixel
+00:05:32  3570MB         |    60% done - 27 rays/pixel
+00:05:33  3589MB         |    65% done - 30 rays/pixel
+00:05:33  3612MB         |    70% done - 28 rays/pixel
+00:05:34  3626MB         |    75% done - 30 rays/pixel
+00:05:34  3617MB         |    80% done - 27 rays/pixel
+00:05:34  3600MB         |    85% done - 27 rays/pixel
+00:05:35  3606MB         |    90% done - 28 rays/pixel
+00:05:35  3629MB         |    95% done - 27 rays/pixel
+00:05:35  3646MB         |   100% done - 28 rays/pixel
+00:05:35  3646MB         |  bucket workers done in 0:06.44
+00:05:35  3646MB         | render done
+00:05:35  3646MB         |  
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | scene creation time:
+00:05:35  3646MB         |  plugin loading               0:00.00
+00:05:35  3646MB         |  .ass parsing                 0:00.03
+00:05:35  3646MB         |  system/unaccounted           0:00.04
+00:05:35  3646MB         |  total                        0:00.04  ( 1.04% machine utilization)
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | render time:
+00:05:35  3646MB         |  node init                    0:00.00
+00:05:35  3646MB         |  bucket rendering             0:06.44
+00:05:35  3646MB         |   accel. building             0:00.00
+00:05:35  3646MB         |   pixel rendering             0:06.44  (multi-threaded render, this value may not be reliable)
+00:05:35  3646MB         |  system/unaccounted           0:00.73
+00:05:35  3646MB         |  total                        0:06.44  (88.67% machine utilization)
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | memory consumed in MB:
+00:05:35  3646MB         |  at startup                      3.49
+00:05:35  3646MB         |  plugins                         0.06
+00:05:35  3646MB         |  AOV samples                     0.80
+00:05:35  3646MB         |  output buffers                  0.50
+00:05:35  3646MB         |  node overhead                   0.01
+00:05:35  3646MB         |  message passing                 0.02
+00:05:35  3646MB         |  memory pools                    7.77
+00:05:35  3646MB         |  geometry                     2919.64
+00:05:35  3646MB         |    points                     2919.64
+00:05:35  3646MB         |  accel. structs               7275.99
+00:05:35  3646MB         |  string pool                     0.13 (588 unique strings, overhead 0.11 MB)
+00:05:35  3646MB         |  texture cache                   0.00
+00:05:35  3646MB         |  unaccounted                 -5551.01
+00:05:35  3646MB         |  total peak                   5020.56
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | ray counts:                           (/pixel , /sample) (% total) (avg. hits) (max hits)
+00:05:35  3646MB         |  camera                        551880 (   1.00,    1.00) (  3.59%) (     1.00) (       1)
+00:05:35  3646MB         |  shadow                       6461340 (  11.70,   11.71) ( 42.01%) (     0.64) (       1)
+00:05:35  3646MB         |  diffuse                      6478854 (  11.73,   11.74) ( 42.12%) (     0.64) (       1)
+00:05:35  3646MB         |  glossy                       1889651 (   3.42,    3.42) ( 12.29%) (     0.80) (       1)
+00:05:35  3646MB         |  total                       15381725 (  27.84,   27.87) (100.00%) (     0.67) (       1)
+00:05:35  3646MB         |  max depth                          2
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | shader calls:                         (/pixel , /sample) (% total)
+00:05:35  3646MB         |  primary                      6184148 (  11.19,   11.21) ( 69.33%)
+00:05:35  3646MB         |  background                   2736237 (   4.95,    4.96) ( 30.67%)
+00:05:35  3646MB         |  total                        8920385 (  16.15,   16.16) (100.00%)
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | geometry:                             (% hit ) (instances) (  init mem,  final mem)
+00:05:35  3646MB         |  lists                              1 (100.0%) (        0) (      0.00,       0.00)
+00:05:35  3646MB         |  procs                              1 (100.0%) (        0) (      0.00,       0.00)
+00:05:35  3646MB         |  points                            30 (100.0%) (        0) (   2757.05,    2919.64)
+00:05:35  3646MB         |  simple                             1 (100.0%) (        0) (      0.00,       0.00)
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | geometric elements:                   (      min) (       avg.) (      max)
+00:05:35  3646MB         |  objects (top level)                2 (        2) (        2.0) (        2)
+00:05:35  3646MB         |  objects (procs)                   30 (       30) (       30.0) (       30)
+00:05:35  3646MB         |  points                     240914535 (  2595224) (  8030484.5) ( 11858486)
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | acceleration structures:              (% total)
+00:05:35  3646MB         |  bvh                               32 (100.00%)
+00:05:35  3646MB         |  total                             32 (100.00%)
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | number of warnings, warning type:
+00:05:35  3646MB         |     3:  %d on-demand procedural%s very poor bounds. This can severely affect ray tracing performance. You should check the bounds being passed from the host application.
+00:05:35  3646MB         |     1:  [proc] %s: user bounds could be %.3gx more efficient. given: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g), should be: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g)
+00:05:35  3646MB         |     1:  [rlm] could not connect to license server on %d@%s
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         | performance warnings:
+00:05:35  3646MB WARNING |  1 on-demand procedural has very poor bounds. This can severely affect ray tracing performance. You should check the bounds being passed from the host application.
+00:05:35  3646MB         | -----------------------------------------------------------------------------------------
+00:05:35  3646MB         |  
+00:05:35  3646MB         | rendering image at 960 x 540, 5 AA samples, 3 GI samples, 1 GI bounces
+00:05:35  3646MB         |  updating 46 nodes ...
+00:05:35  3646MB         |  node update done in 0:00.00
+00:05:35  3646MB         |  [aov] parsing output statement: "RGBA RGBA /out/arnold1:gaussian_filter /out/arnold1:jpeg"
+00:05:35  3646MB         |  [aov] parsing output statement: "RGBA RGBA kick_display_filter kick_display"
+00:05:35  3646MB         |  [aov] registered driver: "kick_display" (driver_x11)
+00:05:35  3646MB         |  [aov]  * "RGBA" of type RGBA filtered by "kick_display_filter" (gaussian_filter)
+00:05:35  3646MB         |  [aov] registered driver: "/out/arnold1:jpeg" (driver_jpeg)
+00:05:35  3646MB         |  [aov]  * "RGBA" of type RGBA filtered by "/out/arnold1:gaussian_filter" (gaussian_filter)
+00:05:35  3647MB         |  [aov] done preparing 1 AOV for 2 outputs to 2 drivers (0 deep AOVs)
+00:05:35  3647MB         |  starting 8 bucket workers of size 64x64 ...
+00:05:42  3604MB         |     0% done - 542 rays/pixel
+00:05:47  3533MB         |     5% done - 714 rays/pixel
+00:05:53  3503MB         |    10% done - 700 rays/pixel
+00:06:00  3488MB         |    15% done - 654 rays/pixel
+00:06:06  3460MB         |    20% done - 615 rays/pixel
+00:06:14  3465MB         |    25% done - 627 rays/pixel
+00:06:19  3469MB         |    30% done - 615 rays/pixel
+00:06:23  3465MB         |    35% done - 714 rays/pixel
+00:06:31  3459MB         |    40% done - 679 rays/pixel
+00:06:39  3454MB         |    45% done - 612 rays/pixel
+00:06:48  3455MB         |    50% done - 654 rays/pixel
+00:06:54  3437MB         |    55% done - 720 rays/pixel
+00:06:58  3410MB         |    60% done - 707 rays/pixel
+00:07:07  3407MB         |    65% done - 641 rays/pixel
+00:07:16  3434MB         |    70% done - 646 rays/pixel
+00:07:24  3449MB         |    75% done - 690 rays/pixel
+00:07:27  3468MB         |    80% done - 679 rays/pixel
+00:07:34  3503MB         |    85% done - 655 rays/pixel
+00:07:42  3535MB         |    90% done - 688 rays/pixel
+00:07:49  3558MB         |    95% done - 683 rays/pixel
+00:07:54  3573MB         |   100% done - 641 rays/pixel
+00:07:54  3573MB         |  bucket workers done in 2:18.48
+00:07:54  3573MB         | render done
+00:07:54  3573MB         | [driver_jpeg] writing file `fractalTest4.jpg'
+00:07:54  3573MB         |  
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | scene creation time:
+00:07:54  3573MB         |  plugin loading               0:00.00
+00:07:54  3573MB         |  .ass parsing                 0:00.03
+00:07:54  3573MB         |  system/unaccounted           0:00.04
+00:07:54  3573MB         |  total                        0:00.04  ( 1.25% machine utilization)
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | render time:
+00:07:54  3573MB         |  node init                    0:00.00
+00:07:54  3573MB         |  bucket rendering             2:18.48
+00:07:54  3573MB         |   accel. building             0:00.00
+00:07:54  3573MB         |   pixel rendering             2:18.48  (multi-threaded render, this value may not be reliable)
+00:07:54  3573MB         |  system/unaccounted           0:04.48
+00:07:54  3573MB         |  total                        2:18.53  (96.76% machine utilization)
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | memory consumed in MB:
+00:07:54  3573MB         |  at startup                      3.49
+00:07:54  3573MB         |  plugins                         0.06
+00:07:54  3573MB         |  AOV samples                    19.94
+00:07:54  3573MB         |  output buffers                  2.48
+00:07:54  3573MB         |  node overhead                   0.01
+00:07:54  3573MB         |  message passing                 0.02
+00:07:54  3573MB         |  memory pools                    7.77
+00:07:54  3573MB         |  geometry                     2919.64
+00:07:54  3573MB         |    points                     2919.64
+00:07:54  3573MB         |  accel. structs               7275.99
+00:07:54  3573MB         |  string pool                     0.13 (588 unique strings, overhead 0.11 MB)
+00:07:54  3573MB         |  texture cache                   0.00
+00:07:54  3573MB         |  unaccounted                 -5572.14
+00:07:54  3573MB         |  total peak                   5020.56
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | ray counts:                           (/pixel , /sample) (% total) (avg. hits) (max hits)
+00:07:54  3573MB         |  camera                      13353930 (  24.17,    1.00) (  3.59%) (     1.00) (       1)
+00:07:54  3573MB         |  shadow                     156410981 ( 283.14,   11.71) ( 42.01%) (     0.64) (       1)
+00:07:54  3573MB         |  diffuse                    156822875 ( 283.88,   11.74) ( 42.12%) (     0.64) (       1)
+00:07:54  3573MB         |  glossy                      45730472 (  82.78,    3.42) ( 12.28%) (     0.80) (       1)
+00:07:54  3573MB         |  total                      372318258 ( 673.98,   27.88) (100.00%) (     0.67) (       1)
+00:07:54  3573MB         |  max depth                          2
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | shader calls:                         (/pixel , /sample) (% total)
+00:07:54  3573MB         |  primary                    149684319 ( 270.96,   11.21) ( 69.33%)
+00:07:54  3573MB         |  background                  66222958 ( 119.88,    4.96) ( 30.67%)
+00:07:54  3573MB         |  total                      215907277 ( 390.84,   16.17) (100.00%)
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | geometry:                             (% hit ) (instances) (  init mem,  final mem)
+00:07:54  3573MB         |  lists                              1 (100.0%) (        0) (      0.00,       0.00)
+00:07:54  3573MB         |  procs                              1 (100.0%) (        0) (      0.00,       0.00)
+00:07:54  3573MB         |  points                            30 (100.0%) (        0) (   2757.05,    2919.64)
+00:07:54  3573MB         |  simple                             1 (100.0%) (        0) (      0.00,       0.00)
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | geometric elements:                   (      min) (       avg.) (      max)
+00:07:54  3573MB         |  objects (top level)                2 (        2) (        2.0) (        2)
+00:07:54  3573MB         |  objects (procs)                   30 (       30) (       30.0) (       30)
+00:07:54  3573MB         |  points                     240914535 (  2595224) (  8030484.5) ( 11858486)
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | acceleration structures:              (% total)
+00:07:54  3573MB         |  bvh                               32 (100.00%)
+00:07:54  3573MB         |  total                             32 (100.00%)
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | number of warnings, warning type:
+00:07:54  3573MB         |     4:  %d on-demand procedural%s very poor bounds. This can severely affect ray tracing performance. You should check the bounds being passed from the host application.
+00:07:54  3573MB         |     1:  [proc] %s: user bounds could be %.3gx more efficient. given: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g), should be: (%.9g, %.9g, %.9g) to (%.9g, %.9g, %.9g)
+00:07:54  3573MB         |     1:  [rlm] could not connect to license server on %d@%s
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         | performance warnings:
+00:07:54  3573MB WARNING |  1 on-demand procedural has very poor bounds. This can severely affect ray tracing performance. You should check the bounds being passed from the host application.
+00:07:54  3573MB         | -----------------------------------------------------------------------------------------
+00:07:54  3573MB         |  
+00:07:54  3573MB         | releasing resources
+00:07:55   776MB         |  unloaded 1 procedural
+00:07:55   776MB         | Arnold shutdown
